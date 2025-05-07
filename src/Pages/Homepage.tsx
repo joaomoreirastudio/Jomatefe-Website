@@ -2,10 +2,10 @@ import MainVideo from "../Components/MainVideo/MainVideo.tsx";
 import YearsSection from "../Components/25YearsSection/25YearsSection.tsx";
 import CategoryPreview from "../Components/CategoryPreview/CategoryPreview.tsx";
 import Video from "../assets/Video/video_main.mp4";
-const MobiliarioImg = "./../public/assets/Images/Habitacao/habitacao-32.webp";
-const EscritorioImg = "./../public/assets/Images/Escritorio/escritorio-16.webp";
-const HabitacaoImg = "./../public/assets/Images/Habitacao/habitacao-31.webp";
-const ComercioImg = "./../public/assets/Images/Comercio/comercio-13.webp";
+const MobiliarioImg = "/assets/Images/Habitacao/habitacao-32.webp";
+const EscritorioImg = "/assets/Images/Escritorio/escritorio-16.webp";
+const HabitacaoImg = "/assets/Images/Habitacao/habitacao-31.webp";
+const ComercioImg = "/assets/Images/Comercio/comercio-13.webp";
 
 const categoryPreviews = [
     {

@@ -1,7 +1,7 @@
 import MainVideo from "../Components/MainVideo/MainVideo.tsx";
 import YearsSection from "../Components/25YearsSection/25YearsSection.tsx";
 import CategoryPreview from "../Components/CategoryPreview/CategoryPreview.tsx";
-import Video from "../assets/Video/video_main.mp4";
+import Video from "/assets/Video/video_main.mp4";
 const MobiliarioImg = "/assets/Images/Habitacao/habitacao-32.webp";
 const EscritorioImg = "/assets/Images/Escritorio/escritorio-16.webp";
 const HabitacaoImg = "/assets/Images/Habitacao/habitacao-31.webp";
@@ -15,7 +15,7 @@ const categoryPreviews = [
         Image: MobiliarioImg,
     },
     {
-        Category: "Escritórios",
+        Category: "Escritório",
         Title: "Soluções para Espaços de Trabalho Inspiradores",
         Text: "Criamos ambientes de trabalho que combinam ergonomia, estilo e eficiência. Desde mobiliário sob medida até painéis e divisórias personalizadas, a nossa carpintaria garante soluções que otimizam o espaço e refletem a identidade da sua empresa.",
         Image: EscritorioImg,
@@ -44,6 +44,7 @@ function Homepage() {
                 subTitle=""
             />
             <YearsSection />
+
             {categoryPreviews.map((categoryPreview, index) => (
                 <CategoryPreview
                     key={index}

@@ -12,10 +12,12 @@ export const Footer = styled.footer`
     background-position: 25% 75%;
     height: 100%;
     padding: 2rem 0;
+
     .line--break {
         width: 90%;
-        margin: 1.5rem auto;
+        margin: 1rem auto;
         border: 1px solid #fff;
+        max-width: 120rem;
     }
 `;
 
@@ -29,6 +31,7 @@ export const FooterContainerItems = styled.div`
 
     @media screen and (min-width: 768px) {
         flex-direction: row;
+        max-width: 110rem;
     }
 `;
 
@@ -47,7 +50,7 @@ export const FooterText = styled.div`
         text-align: justify;
         width: 90%;
         margin: auto;
-        font-size: 1.1rem;
+        font-size: 1rem;
         line-height: 1.25rem;
     }
     a {
@@ -81,11 +84,15 @@ export const FooterContacts = styled.div`
         text-align: center;
         width: 100%;
         margin: auto;
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     a {
         color: #fff;
-        font-size: 1.1rem;
+        font-size: 1rem;
+    }
+    h3 {
+        font-size: 1.25rem;
+        text-align: center;
     }
 
     @media screen and (min-width: 768px) {
@@ -93,6 +100,9 @@ export const FooterContacts = styled.div`
         a {
             text-align: right;
             font-size: 0.9rem;
+        }
+        h3 {
+            font-size: 1.25rem;
         }
     }
 `;
@@ -110,7 +120,7 @@ export const FooterDev = styled.div`
     }
     a {
         color: #fff;
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     @media screen and (min-width: 768px) {
         flex-direction: row;

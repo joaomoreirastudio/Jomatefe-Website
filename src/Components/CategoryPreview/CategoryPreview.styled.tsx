@@ -100,6 +100,8 @@ export const TextContainer = styled.div`
         background-color: transparent;
         border: none;
         position: relative;
+        text-decoration: none;
+        color: black;
     }
 
     .button-right {

@@ -6,12 +6,13 @@ export const YearsSectionContainer = styled.div`
     align-items: center;
     flex-direction: column;
     width: 100vw;
+    padding: 3rem 0 0 0;
 
     @media screen and (min-width: 768px) {
         flex-direction: row;
         width: 90vw;
         margin: auto;
-        padding: 2rem 0 2-rem 0;
+        padding: 3rem 0 0 0;
         gap: 5%;
     }
 `;
@@ -68,7 +69,7 @@ export const YearsTextContainer = styled.div`
     }
     @media screen and (min-width: 768px) {
         align-items: flex-start;
-        padding: 2rem 0;
+
         flex-wrap: wrap;
         height: 100%;
         width: 40rem;

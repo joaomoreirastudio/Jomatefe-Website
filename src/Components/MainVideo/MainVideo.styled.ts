@@ -3,25 +3,35 @@ import styled from "styled-components";
 export const MainVideoSection = styled.section`
     position: relative;
     width: 100%;
+    height: 75vh;
     @media screen and (min-width: 768px) {
+        height: 40vw;
+        max-height: 1000px;
     }
 `;
 
 export const MainVideoContainer = styled.div`
+    position: relative;
     width: 100vw;
-    height: 75vh;
+    height: 80vh;
     video {
         width: 100vw;
         height: 100%;
         object-fit: cover;
     }
     @media screen and (min-width: 768px) {
+        height: 40vw;
+        max-height: 1000px;
     }
 `;
 
 export const VideoTitleContainer = styled.div`
     position: absolute;
-    top: 30vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,8 +41,7 @@ export const VideoTitleContainer = styled.div`
         width: 90%;
         color: white;
         font-size: 1.75rem;
-        padding-bottom: 1rem;
-        margin: auto;
+        margin-bottom: 1rem; /* Em vez de margin: auto */
         text-align: center;
     }
 
@@ -61,17 +70,16 @@ export const VideoTitleContainer = styled.div`
         width: 100%;
 
         h1 {
-            font-size: 3.5rem;
-            padding-bottom: 1rem;
-            margin: auto;
+            font-size: 2vw;
+
             text-align: center;
         }
         p {
-            font-size: 1.5rem;
+            font-size: 1.25vw;
             text-align: center;
         }
         button {
-            font-size: 1.5rem;
+            font-size: 0.9vw;
 
             &:hover {
                 background-color: white;

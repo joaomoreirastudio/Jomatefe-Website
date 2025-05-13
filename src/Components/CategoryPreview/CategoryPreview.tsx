@@ -5,6 +5,7 @@ import {
     TextContainer,
 } from "./CategoryPreview.styled";
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom"; // IMPORTANTE
 
 interface CategoryPreviewProps {
     Category: string;
@@ -22,6 +23,7 @@ const CategoryPreview: React.FC<CategoryPreviewProps> = ({
     index,
 }) => {
     const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 768);
+    const navigate = useNavigate(); // Hook de navegação
 
     useEffect(() => {
         const handleResize = () => {
@@ -32,6 +34,10 @@ const CategoryPreview: React.FC<CategoryPreviewProps> = ({
             window.removeEventListener("resize", handleResize);
         };
     }, []);
+
+    const handleClick = () => {
+        navigate("/projects", { state: { category: Category } });
+    };
 
     return (
         <CategoryComponent>
@@ -47,7 +53,9 @@ const CategoryPreview: React.FC<CategoryPreviewProps> = ({
                             <h2>{Title}</h2>
                             <p>{Text}</p>
                             <div className="btnContainer btnContainer-right">
-                                <button>Saber mais</button>
+                                <button onClick={handleClick}>
+                                    Saber mais
+                                </button>
                                 <div className="arrow">
                                     <span></span>
                                     <span></span>
@@ -68,7 +76,10 @@ const CategoryPreview: React.FC<CategoryPreviewProps> = ({
                             <h2>{Title}</h2>
                             <p>{Text}</p>
                             <div className="btnContainer">
-                                <button className="button-right">
+                                <button
+                                    className="button-right"
+                                    onClick={handleClick}
+                                >
                                     Saber mais
                                 </button>
                                 <div className="arrow">
@@ -89,7 +100,7 @@ const CategoryPreview: React.FC<CategoryPreviewProps> = ({
                         <h2>{Title}</h2>
                         <p>{Text}</p>
                         <div className="btnContainer">
-                            <button>Saber mais</button>
+                            <button onClick={handleClick}>Saber mais</button>
                             <div className="arrow">
                                 <span></span>
                                 <span></span>
@@ -102,4 +113,5 @@ const CategoryPreview: React.FC<CategoryPreviewProps> = ({
         </CategoryComponent>
     );
 };
+
 export default CategoryPreview;

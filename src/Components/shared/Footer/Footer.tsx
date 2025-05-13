@@ -19,9 +19,9 @@ const footer = () => {
                     <p>
                         A Jomatefe é uma empresa especializada em carpintaria de
                         interiores e exteriores, com 25 anos de experiência.
-                        <br></br>Criamos soluções sob medida para habitação,
-                        comércio e escritórios, sempre com qualidade e atenção
-                        aos detalhes.
+                        Criamos soluções sob medida para habitação, comércio e
+                        escritórios, sempre com qualidade e atenção aos
+                        detalhes.
                     </p>
                 </FooterText>
                 <FooterContacts>

@@ -60,7 +60,7 @@ export const CategoriesMenu = styled.ul`
     justify-content: center;
     align-items: center;
     gap: 0.75rem;
-    padding: 2rem 0 1rem 0;
+    padding: 6rem 0 2rem 0;
     width: 100%;
 
     button {
@@ -72,15 +72,16 @@ export const CategoriesMenu = styled.ul`
         padding-bottom: 5px;
         transition: color 0.3s ease-in-out;
         overflow: hidden;
+        font-size: 0.9rem;
     }
 
     /* Adiciona um pseudo-elemento para criar a borda animada */
     button::after {
         content: "";
         position: absolute;
-        left: 0;
+        left: 20%;
         bottom: 0;
-        width: 100%; /* Mantemos a largura total */
+        width: 60%; /* Mantemos a largura total */
         height: 2px;
         background-color: #512700;
         transform: scaleX(0); /* Começa completamente invisível */

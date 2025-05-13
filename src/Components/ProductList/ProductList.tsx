@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { useLocation } from "react-router-dom"; // <--- ADICIONADO
 import LazyImageComponent from "../shared/LazyImage";
 import Modal from "react-modal";
 import {
@@ -19,11 +20,22 @@ const categoryMap: Record<string, string> = {
 Modal.setAppElement("#root");
 
 const ProductList = () => {
+    const location = useLocation(); // <--- ADICIONADO
+    const categoryFromState = location.state?.category; // <--- ADICIONADO
+
     const [productsByCategory, setProductsByCategory] = useState<
         Record<string, any[]>
     >({});
-    const [categorySelected, setCategorySelected] = useState("Habitação");
+    const [categorySelected, setCategorySelected] = useState(
+        categoryFromState || "Habitação" // <--- ADICIONADO
+    );
     const [selectedImage, setSelectedImage] = useState<string | null>(null);
+
+    useEffect(() => {
+        if (categoryFromState && categories.includes(categoryFromState)) {
+            setCategorySelected(categoryFromState); // <--- GARANTE atualização se navegado
+        }
+    }, [categoryFromState]);
 
     useEffect(() => {
         const fetchData = async () => {
@@ -84,9 +96,8 @@ const ProductList = () => {
                                 b.imagePath.match(/\d+/)?.[0] || "0",
                                 10
                             );
-                            return numA - numB; // Ordenação numérica correta
+                            return numA - numB;
                         })
-
                         .map((product, index) => (
                             <LazyImageComponent
                                 key={`${categorySelected}-${product.id}`}
@@ -123,9 +134,9 @@ const ProductList = () => {
                         display: "flex",
                         justifyContent: "center",
                         alignItems: "center",
-                        maxWidth: "80vw", // Limita largura do modal
-                        maxHeight: "80vh", // Limita altura do modal
-                        overflow: "hidden", // Impede scroll interno
+                        maxWidth: "80vw",
+                        maxHeight: "80vh",
+                        overflow: "hidden",
                     },
                 }}
             >

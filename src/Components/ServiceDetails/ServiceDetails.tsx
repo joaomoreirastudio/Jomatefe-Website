@@ -4,7 +4,7 @@ import {
     ServiceDetailsModule,
     ServiceDetailsModuleContainer,
 } from "./ServiceDetails.styled";
-import IMG from "./assets/images/sobre_nos_img_2.webp";
+import IMG from "/assets/images/sobre_nos_img_module.webp";
 import PlaneamentoIMG from "../../assets/Images/circle_compass.svg";
 import InteriorIMG from "../../assets/Images/Interior.svg";
 import ExteriorIMG from "../../assets/Images/Exterior.svg";

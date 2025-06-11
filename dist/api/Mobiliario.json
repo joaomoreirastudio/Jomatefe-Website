@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "imageName": "Mobiliario-1.webp",
+        "imagePath": "/assets/Images/Mobiliario/Mobiliario-1.webp"
+    },
+    {
+        "id": 2,
+        "imageName": "Mobiliario-10.webp",
+        "imagePath": "/assets/Images/Mobiliario/Mobiliario-10.webp"
+    },
+    {
+        "id": 3,
+        "imageName": "Mobiliario-11.webp",
+        "imagePath": "/assets/Images/Mobiliario/Mobiliario-11.webp"
+    },
+    {
+        "id": 4,
+        "imageName": "Mobiliario-12.webp",
+        "imagePath": "/assets/Images/Mobiliario/Mobiliario-12.webp"
+    },
+    {
+        "id": 5,
+        "imageName": "Mobiliario-16.webp",
+        "imagePath": "/assets/Images/Mobiliario/Mobiliario-16.webp"
+    },
+    {
+        "id": 6,
+        "imageName": "Mobiliario-17.webp",
+        "imagePath": "/assets/Images/Mobiliario/Mobiliario-17.webp"
+    },
+    {
+        "id": 7,
+        "imageName": "Mobiliario-18.webp",
+        "imagePath": "/assets/Images/Mobiliario/Mobiliario-18.webp"
+    },
+    {
+        "id": 8,
+        "imageName": "Mobiliario-19.webp",
+        "imagePath": "/assets/Images/Mobiliario/Mobiliario-19.webp"
+    },
+    {
+        "id": 9,
+        "imageName": "Mobiliario-2.webp",
+        "imagePath": "/assets/Images/Mobiliario/Mobiliario-2.webp"
+    },
+    {
+        "id": 10,
+        "imageName": "Mobiliario-20.webp",
+        "imagePath": "/assets/Images/Mobiliario/Mobiliario-20.webp"
+    },
+    {
+        "id": 11,
+        "imageName": "Mobiliario-21.webp",
+        "imagePath": "/assets/Images/Mobiliario/Mobiliario-21.webp"
+    },
+    {
+        "id": 12,
+        "imageName": "Mobiliario-22.webp",
+        "imagePath": "/assets/Images/Mobiliario/Mobiliario-22.webp"
+    },
+    {
+        "id": 13,
+        "imageName": "Mobiliario-23.webp",
+        "imagePath": "/assets/Images/Mobiliario/Mobiliario-23.webp"
+    },
+    {
+        "id": 14,
+        "imageName": "Mobiliario-25.webp",
+        "imagePath": "/assets/Images/Mobiliario/Mobiliario-25.webp"
+    },
+    {
+        "id": 15,
+        "imageName": "Mobiliario-3.webp",
+        "imagePath": "/assets/Images/Mobiliario/Mobiliario-3.webp"
+    },
+    {
+        "id": 16,
+        "imageName": "Mobiliario-4.webp",
+        "imagePath": "/assets/Images/Mobiliario/Mobiliario-4.webp"
+    },
+    {
+        "id": 17,
+        "imageName": "Mobiliario-5.webp",
+        "imagePath": "/assets/Images/Mobiliario/Mobiliario-5.webp"
+    },
+    {
+        "id": 18,
+        "imageName": "Mobiliario-6.webp",
+        "imagePath": "/assets/Images/Mobiliario/Mobiliario-6.webp"
+    },
+    {
+        "id": 19,
+        "imageName": "Mobiliario-7.webp",
+        "imagePath": "/assets/Images/Mobiliario/Mobiliario-7.webp"
+    },
+    {
+        "id": 20,
+        "imageName": "Mobiliario-9.webp",
+        "imagePath": "/assets/Images/Mobiliario/Mobiliario-9.webp"
+    }
+]

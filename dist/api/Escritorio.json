@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "imageName": "escritorio-1.webp",
+        "imagePath": "/assets/Images/Escritorio/escritorio-1.webp"
+    },
+    {
+        "id": 2,
+        "imageName": "escritorio-10.webp",
+        "imagePath": "/assets/Images/Escritorio/escritorio-10.webp"
+    },
+    {
+        "id": 3,
+        "imageName": "escritorio-11.webp",
+        "imagePath": "/assets/Images/Escritorio/escritorio-11.webp"
+    },
+    {
+        "id": 4,
+        "imageName": "escritorio-12.webp",
+        "imagePath": "/assets/Images/Escritorio/escritorio-12.webp"
+    },
+    {
+        "id": 5,
+        "imageName": "escritorio-13.webp",
+        "imagePath": "/assets/Images/Escritorio/escritorio-13.webp"
+    },
+    {
+        "id": 6,
+        "imageName": "escritorio-14.webp",
+        "imagePath": "/assets/Images/Escritorio/escritorio-14.webp"
+    },
+    {
+        "id": 7,
+        "imageName": "escritorio-15.webp",
+        "imagePath": "/assets/Images/Escritorio/escritorio-15.webp"
+    },
+    {
+        "id": 8,
+        "imageName": "escritorio-16.webp",
+        "imagePath": "/assets/Images/Escritorio/escritorio-16.webp"
+    },
+    {
+        "id": 9,
+        "imageName": "escritorio-2.webp",
+        "imagePath": "/assets/Images/Escritorio/escritorio-2.webp"
+    },
+    {
+        "id": 10,
+        "imageName": "escritorio-3.webp",
+        "imagePath": "/assets/Images/Escritorio/escritorio-3.webp"
+    },
+    {
+        "id": 11,
+        "imageName": "escritorio-4.webp",
+        "imagePath": "/assets/Images/Escritorio/escritorio-4.webp"
+    },
+    {
+        "id": 12,
+        "imageName": "escritorio-5.webp",
+        "imagePath": "/assets/Images/Escritorio/escritorio-5.webp"
+    },
+    {
+        "id": 13,
+        "imageName": "escritorio-6.webp",
+        "imagePath": "/assets/Images/Escritorio/escritorio-6.webp"
+    },
+    {
+        "id": 14,
+        "imageName": "escritorio-7.webp",
+        "imagePath": "/assets/Images/Escritorio/escritorio-7.webp"
+    },
+    {
+        "id": 15,
+        "imageName": "escritorio-8.webp",
+        "imagePath": "/assets/Images/Escritorio/escritorio-8.webp"
+    },
+    {
+        "id": 16,
+        "imageName": "escritorio-9.webp",
+        "imagePath": "/assets/Images/Escritorio/escritorio-9.webp"
+    }
+]

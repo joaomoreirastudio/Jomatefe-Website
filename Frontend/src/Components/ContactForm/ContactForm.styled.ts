@@ -140,6 +140,7 @@ export const ContactFormInputContainer = styled.div`
         box-sizing: border-box;
         background-color: #4e2500;
     }
+
     .arrow {
         transform: translate(-25%, -25%);
         transform: rotate(-90deg);
@@ -187,9 +188,41 @@ export const ContactFormInputContainer = styled.div`
         .arrow {
             margin-top: 0.6rem;
         }
+        .btnContainer:hover .arrow span {
+            border-bottom: 2px solid #4e2500;
+            border-right: 2px solid #4e2500;
+        }
         .arrow span {
             width: 0.5rem;
             height: 0.5rem;
         }
+        .btnContainer:hover {
+            background-color: white;
+            color: #4e2500;
+        }
+        .btnContainer:hover button {
+            background-color: white;
+            color: #4e2500;
+        }
     }
+`;
+
+export const SuccessMessage = styled.div`
+    background-color: #4caf50;
+    width: 100%;
+    color: white;
+    padding: 10px 0;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-align: center;
+`;
+
+export const ErrorMessage = styled.div`
+    background-color: #f44336;
+    width: 100%;
+    color: white;
+    padding: 10px 0;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-align: center;
 `;

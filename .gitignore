@@ -8,6 +8,8 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
+dist
+dist-ssr
 *.local
 
 # Editor directories and files
@@ -20,3 +22,12 @@ node_modules
 *.njsproj
 *.sln
 *.sw?
+dist/index.html
+dist/api/Comercio.json
+dist/api/Escritorio.json
+dist/api/Habitacao.json
+dist/api/Mobiliario.json
+dist/assets/25_years_icon-uHECpWqM.svg
+dist/assets/index-B4YEsgcI.js
+dist/assets/index-B4YEsgcI.js.map
+dist/assets/logo-navbar-LItkqeeN.svg

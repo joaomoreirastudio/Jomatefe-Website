@@ -1,0 +1,36 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+.env
+
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+dist/index.html
+dist/api/Comercio.json
+dist/api/Escritorio.json
+dist/api/Habitacao.json
+dist/api/Mobiliario.json
+dist/assets/25_years_icon-uHECpWqM.svg
+dist/assets/index-B4YEsgcI.js
+dist/assets/index-B4YEsgcI.js.map
+dist/assets/logo-navbar-LItkqeeN.svg
+Backend/.env

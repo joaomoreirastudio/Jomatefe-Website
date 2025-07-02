@@ -61,7 +61,7 @@ const ContactForm = () => {
 
         try {
             const response = await fetch(
-                "https://www.jfcarpintaria.pt/backend/send-email",
+                "https://jfcarpintaria.pt/api/send-mail.php",
                 {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
@@ -185,7 +185,7 @@ const ContactForm = () => {
                 {errors.geral && <ErrorMessage>{errors.geral}</ErrorMessage>}
 
                 <div className="btnContainer" onClick={handleSubmit}>
-                    <button type="submit" aria-required onClick={handleSubmit}>
+                    <button type="button" aria-required>
                         Enviar
                     </button>
                     <div className="arrow">

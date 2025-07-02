@@ -34,3 +34,5 @@ dist/assets/index-B4YEsgcI.js
 dist/assets/index-B4YEsgcI.js.map
 dist/assets/logo-navbar-LItkqeeN.svg
 Backend/.env
+public/api/send-mail.php
+public/api/PHPMailer-6.10.0.zip
